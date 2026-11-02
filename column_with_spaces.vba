@@ -6,7 +6,7 @@ Sub RemoveFirstWord()
     Dim col As String
 
     ' Set your worksheet
-    Set ws = ThisWorkbook.Sheets("Sheet1") ' Change "Sheet1" to your sheet name
+    Set ws = ActiveWorkbook.Sheets("Sheet1") ' Change "Sheet1" to your sheet name
 
     ' Set the column to process (e.g., Column A)
     col = "A"
